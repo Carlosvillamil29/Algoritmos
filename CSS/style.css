@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    background: url(../IMG/imagesfondo.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 120px;
+
+}
+
+#contenedor h1{
+    color: aquamarine;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+#contenedor p{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#contenedor {
+    width: 80%;
+    padding: 10px 120px;
+    background: #000000af;
+    margin: 0 auto;
+
+}
+/* Estilos de los botones estado activo */
+#contenedor button{
+    pad: 8px 20px;
+    background: transparent;
+    border: 2px solid blanchedalmond;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    transition: .3s;
+    margin: 10px 30px;
+
+
+}
+
+/* Estilos de los botones estado hover */
+#contenedor button:hover{
+    background: black;
+    padding: 8px 40px;
+}
